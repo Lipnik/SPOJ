@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Life, the Universe, and Eve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adding Reversed Numbers", "Adding Reversed Numbers\Adding Reversed Numbers.vcxproj", "{32CAD2CE-6A1B-469D-A703-CD7808318D61}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factorial", "Factorial\Factorial.vcxproj", "{302F5FC2-5B1F-4987-9ADB-B31E08926455}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{32CAD2CE-6A1B-469D-A703-CD7808318D61}.Debug|Win32.Build.0 = Debug|Win32
 		{32CAD2CE-6A1B-469D-A703-CD7808318D61}.Release|Win32.ActiveCfg = Release|Win32
 		{32CAD2CE-6A1B-469D-A703-CD7808318D61}.Release|Win32.Build.0 = Release|Win32
+		{302F5FC2-5B1F-4987-9ADB-B31E08926455}.Debug|Win32.ActiveCfg = Debug|Win32
+		{302F5FC2-5B1F-4987-9ADB-B31E08926455}.Debug|Win32.Build.0 = Debug|Win32
+		{302F5FC2-5B1F-4987-9ADB-B31E08926455}.Release|Win32.ActiveCfg = Release|Win32
+		{302F5FC2-5B1F-4987-9ADB-B31E08926455}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
