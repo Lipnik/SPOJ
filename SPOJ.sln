@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adding Reversed Numbers", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factorial", "Factorial\Factorial.vcxproj", "{302F5FC2-5B1F-4987-9ADB-B31E08926455}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Small factorials", "Small factorials\Small factorials.vcxproj", "{B905FC3D-CD31-4874-B6A9-56A0A169949D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{302F5FC2-5B1F-4987-9ADB-B31E08926455}.Debug|Win32.Build.0 = Debug|Win32
 		{302F5FC2-5B1F-4987-9ADB-B31E08926455}.Release|Win32.ActiveCfg = Release|Win32
 		{302F5FC2-5B1F-4987-9ADB-B31E08926455}.Release|Win32.Build.0 = Release|Win32
+		{B905FC3D-CD31-4874-B6A9-56A0A169949D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B905FC3D-CD31-4874-B6A9-56A0A169949D}.Debug|Win32.Build.0 = Debug|Win32
+		{B905FC3D-CD31-4874-B6A9-56A0A169949D}.Release|Win32.ActiveCfg = Release|Win32
+		{B905FC3D-CD31-4874-B6A9-56A0A169949D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

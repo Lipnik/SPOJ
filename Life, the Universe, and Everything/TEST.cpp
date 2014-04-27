@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int input;
-	vector<int> outputs;
+	vector<int> output;
 	while(scanf("%d",&input))
 	{		
 		if (input==42)
@@ -14,13 +14,14 @@ int main()
 		}
 		else
 		{
-			outputs.push_back(input);
+			output.push_back(input);
 		}		
 	}
 
-	for (int i = 0; i < outputs.size(); i++)
+	int outputSize=output.size();
+	for (int i = 0; i < outputSize; i++)
 	{
-		printf("%d\n",outputs[i]);
+		printf("%d\n",output[i]);
 	}
 	return 0;
 }

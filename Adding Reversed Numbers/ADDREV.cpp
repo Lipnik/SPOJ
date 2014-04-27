@@ -41,7 +41,8 @@ int main()
 		sum=ReverseNumber(sum);
 		output.push_back(sum);
 	}
-	for (int i = 0; i < output.size(); i++)
+	int outputSize=output.size();
+	for (int i = 0; i < outputSize; i++)
 	{
 		printf("%d\n",output[i]);
 	}

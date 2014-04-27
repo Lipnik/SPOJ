@@ -21,7 +21,8 @@ int main()
 		output.push_back(numberOfZeros);
 	}
 
-	for (int i = 0; i < output.size(); i++)
+	int outputSize=output.size();
+	for (int i = 0; i < outputSize; i++)
 	{
 		printf("%d\n",output[i]);
 	}
