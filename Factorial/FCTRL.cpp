@@ -1,6 +1,5 @@
 #include<iostream>
 #include<vector>
-#include<math.h>
 using namespace std;
 
 int main()
@@ -15,8 +14,8 @@ int main()
 		int numberOfZeros=0;
 		while (input>=5)
 		{
-			input=input/5;
-			numberOfZeros=numberOfZeros+input;
+			input/=5;
+			numberOfZeros+=input;
 		}
 		output.push_back(numberOfZeros);
 	}

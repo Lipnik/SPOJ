@@ -1,27 +1,39 @@
 #include<iostream>
 #include<vector>
-#include<math.h>
 using namespace std;
 
 int ReverseNumber(int number)
 {
-	bool notLeadZero=false;
+	bool LeadZero=true;
 	vector<int> digits;
 	while (number>0)
 	{
 		int tmp=number%10;
-		if (tmp!=0 || notLeadZero)
+		number/=10;
+		if (LeadZero)
 		{
-			notLeadZero=true;
-			digits.push_back(tmp);
+			if (tmp!=0)
+			{
+				LeadZero=false;
+			}
+			else
+			{
+				continue;
+			}		
 		}
-		number=number/10;
+		digits.push_back(tmp);
 	}
+
 	int rNumber=0;
 	int numberOfDigits=digits.size();
 	for (int i = 0; i < numberOfDigits; i++)
 	{
-		rNumber=rNumber+digits[numberOfDigits-1-i]*pow(10,i);
+		int power=1;
+		for (int j = 0; j < i; j++)
+		{
+			power*=10;
+		}
+		rNumber+=digits[numberOfDigits-1-i]*power;
 	}
 	return rNumber;
 }

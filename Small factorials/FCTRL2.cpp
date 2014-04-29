@@ -21,7 +21,7 @@ int main()
 			{
 				fact[i]=fact[i]*input+carry;
 				carry=fact[i]/10000000;
-				fact[i]=fact[i]-carry*10000000;
+				fact[i]%=10000000;
 			}
 			if (carry!=0)
 			{
@@ -44,9 +44,7 @@ int main()
 				printf("0");
 				leadZero=leadZero/10;
 			}
-
 			printf("%d",output[i][j]);
-
 		}
 		printf("\n");
 	}
