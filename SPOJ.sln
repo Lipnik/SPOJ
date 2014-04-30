@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Small factorials", "Small f
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prime Generator", "Prime Generator\Prime Generator.vcxproj", "{6EF2AA0E-4BC7-49A9-A4AA-6DD751167714}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transform the Expression", "Transform the Expression\Transform the Expression.vcxproj", "{E9419D61-9377-4B2F-8521-4D988307D1FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +39,10 @@ Global
 		{6EF2AA0E-4BC7-49A9-A4AA-6DD751167714}.Debug|Win32.Build.0 = Debug|Win32
 		{6EF2AA0E-4BC7-49A9-A4AA-6DD751167714}.Release|Win32.ActiveCfg = Release|Win32
 		{6EF2AA0E-4BC7-49A9-A4AA-6DD751167714}.Release|Win32.Build.0 = Release|Win32
+		{E9419D61-9377-4B2F-8521-4D988307D1FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9419D61-9377-4B2F-8521-4D988307D1FE}.Debug|Win32.Build.0 = Debug|Win32
+		{E9419D61-9377-4B2F-8521-4D988307D1FE}.Release|Win32.ActiveCfg = Release|Win32
+		{E9419D61-9377-4B2F-8521-4D988307D1FE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
