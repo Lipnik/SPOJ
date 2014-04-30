@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number Steps", "Number Step
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Feynman", "Feynman\Feynman.vcxproj", "{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "To and Fro", "To and Fro\To and Fro.vcxproj", "{CD040AA6-7829-46CF-A66D-294C1A53F1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -55,6 +57,10 @@ Global
 		{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}.Debug|Win32.Build.0 = Debug|Win32
 		{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}.Release|Win32.ActiveCfg = Release|Win32
 		{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}.Release|Win32.Build.0 = Release|Win32
+		{CD040AA6-7829-46CF-A66D-294C1A53F1EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD040AA6-7829-46CF-A66D-294C1A53F1EF}.Debug|Win32.Build.0 = Debug|Win32
+		{CD040AA6-7829-46CF-A66D-294C1A53F1EF}.Release|Win32.ActiveCfg = Release|Win32
+		{CD040AA6-7829-46CF-A66D-294C1A53F1EF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
