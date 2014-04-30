@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prime Generator", "Prime Ge
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transform the Expression", "Transform the Expression\Transform the Expression.vcxproj", "{E9419D61-9377-4B2F-8521-4D988307D1FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number Steps", "Number Steps\Number Steps.vcxproj", "{E100828A-4469-4A03-A2DA-ED09C499DA41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Feynman", "Feynman\Feynman.vcxproj", "{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -43,6 +47,14 @@ Global
 		{E9419D61-9377-4B2F-8521-4D988307D1FE}.Debug|Win32.Build.0 = Debug|Win32
 		{E9419D61-9377-4B2F-8521-4D988307D1FE}.Release|Win32.ActiveCfg = Release|Win32
 		{E9419D61-9377-4B2F-8521-4D988307D1FE}.Release|Win32.Build.0 = Release|Win32
+		{E100828A-4469-4A03-A2DA-ED09C499DA41}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E100828A-4469-4A03-A2DA-ED09C499DA41}.Debug|Win32.Build.0 = Debug|Win32
+		{E100828A-4469-4A03-A2DA-ED09C499DA41}.Release|Win32.ActiveCfg = Release|Win32
+		{E100828A-4469-4A03-A2DA-ED09C499DA41}.Release|Win32.Build.0 = Release|Win32
+		{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}.Debug|Win32.Build.0 = Debug|Win32
+		{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}.Release|Win32.ActiveCfg = Release|Win32
+		{8F5C5B2D-9393-4D58-A83E-66CC2D3ECDDA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
