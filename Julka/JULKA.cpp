@@ -123,9 +123,6 @@ int main()
 {
 	int i,j;
 	vector<vector<int> > output;
-	char take1[2];
-	take1[0]='1';
-	take1[1]=0;
 	char apples[102];
 	char difference[102];
 	for (i = 0; i < 10; i++)
