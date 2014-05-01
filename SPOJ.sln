@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Julka", "Julka\Julka.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fashion Shows", "Fashion Shows\Fashion Shows.vcxproj", "{A38D8F7F-6E0A-4F38-951E-7B473310F686}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "What’s Next", "What’s Next\What’s Next.vcxproj", "{985314FC-AF20-4E1A-8AA4-2706F1E43821}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -73,6 +75,10 @@ Global
 		{A38D8F7F-6E0A-4F38-951E-7B473310F686}.Debug|Win32.Build.0 = Debug|Win32
 		{A38D8F7F-6E0A-4F38-951E-7B473310F686}.Release|Win32.ActiveCfg = Release|Win32
 		{A38D8F7F-6E0A-4F38-951E-7B473310F686}.Release|Win32.Build.0 = Release|Win32
+		{985314FC-AF20-4E1A-8AA4-2706F1E43821}.Debug|Win32.ActiveCfg = Debug|Win32
+		{985314FC-AF20-4E1A-8AA4-2706F1E43821}.Debug|Win32.Build.0 = Debug|Win32
+		{985314FC-AF20-4E1A-8AA4-2706F1E43821}.Release|Win32.ActiveCfg = Release|Win32
+		{985314FC-AF20-4E1A-8AA4-2706F1E43821}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
