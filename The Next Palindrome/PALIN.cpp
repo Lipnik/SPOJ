@@ -16,34 +16,17 @@ int main()
 		inputSize=strlen(input);
 		int pos1,pos2;
 		int range=inputSize/2;
-		pos1=0;
-		pos2=inputSize-1;
+		pos1=range-1;
+		pos2=inputSize-range;
 		bool simple=0;
 		for (int j = 0; j < range; j++)
 		{
-			if (input[pos1+j]>input[pos2-j])
+			if (input[pos1-j]>input[pos2+j])
 			{
-				pos1=range-1;
-				pos2=inputSize-range;
-				for (int k = 0; k < range; k++)
-				{
-					if (input[pos1-k]>input[pos2+k])
-					{
-						simple=1;
-						break;
-					}
-					else if(input[pos1-k]<input[pos2+k])
-					{
-						break;
-					}
-					else
-					{
-						continue;
-					}
-				}
+				simple=1;
 				break;
 			}
-			else if(input[pos1+j]<input[pos2-j])
+			else if(input[pos1-j]<input[pos2+j])
 			{
 				break;
 			}
@@ -54,26 +37,17 @@ int main()
 		}
 		if (simple)
 		{
-			pos1=0;
-			pos2=inputSize-1;
 			for (int j = 0; j < range; j++)
 			{
-				input[pos2-j]=input[pos1+j];
+				input[pos2+j]=input[pos1-j];
 			}
 		}
 		else
 		{
-			bool odd=inputSize%2;
-			if (odd)
+			if (inputSize%2!=0)
 			{
-				pos1=inputSize/2;
-				pos2=pos1;
+				pos2=++pos1;
 				range++;
-			}
-			else
-			{
-				pos1=inputSize/2-1;
-				pos2=pos1+1;
 			}
 			int carry=1;
 			for (int j = 0; j < range; j++)

@@ -1,20 +1,22 @@
 #include<stdio.h>
 #include<vector>
-#include<math.h>
 using namespace std;
 
 int main()
 {
 	vector<int> output;
-	int size;
-	scanf("%d",&size);
+	int N;
+	scanf("%d",&N);
 	do
 	{
-		int numberOfSquares;
-		numberOfSquares=size*(size+1)*(size+1)-ceil(2*size*size*size/3.+3*size*size/2.+5*size/6.);
+		int numberOfSquares=0;
+		for (int i = 1; i <= N; i++)
+		{
+			numberOfSquares+=((N-i+1)*(N-i+1));
+		}
 		output.push_back(numberOfSquares);
-		scanf("%d",&size);
-	}while(size>0);
+		scanf("%d",&N);
+	}while(N>0);
 
 	int outputSize=output.size();
 	for (int i = 0; i < outputSize; i++)

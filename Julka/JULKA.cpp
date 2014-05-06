@@ -53,7 +53,7 @@ vector<int> ClearLeadZeros(vector<int> bigNum)
 	return bigNum;
 }
 
-vector<int> GetHalf(vector<int> bigNum,vector<int> out)
+vector<int> GetHalf(vector<int> bigNum)
 {
 	bool mod2;
 	int bigNumSize=bigNum.size();
@@ -61,7 +61,7 @@ vector<int> GetHalf(vector<int> bigNum,vector<int> out)
 	for (int i = bigNumSize-1; i >=0; i--)
 	{
 		mod2=bigNum[i]%2;
-		out[i]=bigNum[i]/2+carry;
+		bigNum[i]=bigNum[i]/2+carry;
 		if (mod2)
 		{
 			carry=500000000;
@@ -72,11 +72,11 @@ vector<int> GetHalf(vector<int> bigNum,vector<int> out)
 		}
 	}
 
-	out=ClearLeadZeros(out);
-	return out;
+	bigNum=ClearLeadZeros(bigNum);
+	return bigNum;
 }
 
-vector<int> Take(vector<int> bigNum,vector<int> take,vector<int> out)
+vector<int> Take(vector<int> bigNum,vector<int> take)
 {
 	int i;	
 	int bigNumSize=bigNum.size();
@@ -87,12 +87,12 @@ vector<int> Take(vector<int> bigNum,vector<int> take,vector<int> out)
 		int dif=bigNum[i]-take[i]+carry;
 		if (dif<0)
 		{
-			out[i]=1000000000+dif;
+			bigNum[i]=1000000000+dif;
 			carry=-1;
 		}
 		else
 		{
-			out[i]=dif;
+			bigNum[i]=dif;
 			carry=0;
 		}
 	}
@@ -103,20 +103,20 @@ vector<int> Take(vector<int> bigNum,vector<int> take,vector<int> out)
 			int dif=bigNum[i]+carry;
 			if (dif<0)
 			{
-				out[i]=1000000000+dif;
+				bigNum[i]=1000000000+dif;
 				carry=-1;
 				continue;
 			}
 			else
 			{
-				out[i]=dif;
+				bigNum[i]=dif;
 				break;
 			}
 		}
 	}
 
-	out=ClearLeadZeros(out);
-	return out;
+	bigNum=ClearLeadZeros(bigNum);
+	return bigNum;
 }
 
 int main()
@@ -134,10 +134,10 @@ int main()
 		vector<int> numDifference;
 		numDifference=ToBigNum(difference,numDifference);
 		vector<int> nadia(numApples);
-		nadia=GetHalf(numApples,nadia);
-		nadia=Take(nadia,GetHalf(numDifference,numDifference),nadia);
+		nadia=GetHalf(nadia);
+		nadia=Take(nadia,GetHalf(numDifference));
 		vector<int> klaudia(numApples);
-		klaudia=Take(numApples,nadia,klaudia);
+		klaudia=Take(klaudia,nadia);
 		output.push_back(klaudia);
 		output.push_back(nadia);
 	}
