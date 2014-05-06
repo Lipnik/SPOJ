@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "The Next Palindrome", "The 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rectangles", "Rectangles\Rectangles.vcxproj", "{560C9705-A140-45D9-B178-D22B3CF688E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Candy III", "Candy III\Candy III.vcxproj", "{ED60F753-197A-4B8F-B362-C11C3E4B9723}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -103,6 +105,10 @@ Global
 		{560C9705-A140-45D9-B178-D22B3CF688E0}.Debug|Win32.Build.0 = Debug|Win32
 		{560C9705-A140-45D9-B178-D22B3CF688E0}.Release|Win32.ActiveCfg = Release|Win32
 		{560C9705-A140-45D9-B178-D22B3CF688E0}.Release|Win32.Build.0 = Release|Win32
+		{ED60F753-197A-4B8F-B362-C11C3E4B9723}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED60F753-197A-4B8F-B362-C11C3E4B9723}.Debug|Win32.Build.0 = Debug|Win32
+		{ED60F753-197A-4B8F-B362-C11C3E4B9723}.Release|Win32.ActiveCfg = Release|Win32
+		{ED60F753-197A-4B8F-B362-C11C3E4B9723}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

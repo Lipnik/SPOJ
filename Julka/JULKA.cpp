@@ -9,7 +9,7 @@ vector<int> ToBigNum(char* strNum,vector<int> out)
 	int strNumSize=strlen(strNum);
 	for (int i = strNumSize-1; i >=0; i-=9)
 	{
-		char* numSegment=new char(9);
+		char* numSegment=new char[9];
 		for (int j = 0; j<9; j++)
 		{
 			numSegment[8-j]=strNum[i-j];
