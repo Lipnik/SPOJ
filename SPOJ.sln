@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rectangles", "Rectangles\Re
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Candy III", "Candy III\Candy III.vcxproj", "{ED60F753-197A-4B8F-B362-C11C3E4B9723}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bytelandian gold coins", "Bytelandian gold coins\Bytelandian gold coins.vcxproj", "{16E48AC4-2E63-467A-8A9E-23B7FEB88FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -109,6 +111,10 @@ Global
 		{ED60F753-197A-4B8F-B362-C11C3E4B9723}.Debug|Win32.Build.0 = Debug|Win32
 		{ED60F753-197A-4B8F-B362-C11C3E4B9723}.Release|Win32.ActiveCfg = Release|Win32
 		{ED60F753-197A-4B8F-B362-C11C3E4B9723}.Release|Win32.Build.0 = Release|Win32
+		{16E48AC4-2E63-467A-8A9E-23B7FEB88FDA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16E48AC4-2E63-467A-8A9E-23B7FEB88FDA}.Debug|Win32.Build.0 = Debug|Win32
+		{16E48AC4-2E63-467A-8A9E-23B7FEB88FDA}.Release|Win32.ActiveCfg = Release|Win32
+		{16E48AC4-2E63-467A-8A9E-23B7FEB88FDA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
