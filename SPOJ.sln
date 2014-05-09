@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triple Fat Ladies", "Triple
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangover", "Hangover\Hangover.vcxproj", "{3487B75C-4307-421F-94B2-A50B273D522C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count on Cantor", "Count on Cantor\Count on Cantor.vcxproj", "{22725C12-FD38-43B4-AB42-F8A7ABCEB585}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -127,6 +129,10 @@ Global
 		{3487B75C-4307-421F-94B2-A50B273D522C}.Debug|Win32.Build.0 = Debug|Win32
 		{3487B75C-4307-421F-94B2-A50B273D522C}.Release|Win32.ActiveCfg = Release|Win32
 		{3487B75C-4307-421F-94B2-A50B273D522C}.Release|Win32.Build.0 = Release|Win32
+		{22725C12-FD38-43B4-AB42-F8A7ABCEB585}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22725C12-FD38-43B4-AB42-F8A7ABCEB585}.Debug|Win32.Build.0 = Debug|Win32
+		{22725C12-FD38-43B4-AB42-F8A7ABCEB585}.Release|Win32.ActiveCfg = Release|Win32
+		{22725C12-FD38-43B4-AB42-F8A7ABCEB585}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
