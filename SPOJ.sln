@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bytelandian gold coins", "B
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triple Fat Ladies", "Triple Fat Ladies\Triple Fat Ladies.vcxproj", "{1323FFDB-9E4A-4325-9990-631EB5CD95CE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangover", "Hangover\Hangover.vcxproj", "{3487B75C-4307-421F-94B2-A50B273D522C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -121,6 +123,10 @@ Global
 		{1323FFDB-9E4A-4325-9990-631EB5CD95CE}.Debug|Win32.Build.0 = Debug|Win32
 		{1323FFDB-9E4A-4325-9990-631EB5CD95CE}.Release|Win32.ActiveCfg = Release|Win32
 		{1323FFDB-9E4A-4325-9990-631EB5CD95CE}.Release|Win32.Build.0 = Release|Win32
+		{3487B75C-4307-421F-94B2-A50B273D522C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3487B75C-4307-421F-94B2-A50B273D522C}.Debug|Win32.Build.0 = Debug|Win32
+		{3487B75C-4307-421F-94B2-A50B273D522C}.Release|Win32.ActiveCfg = Release|Win32
+		{3487B75C-4307-421F-94B2-A50B273D522C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
