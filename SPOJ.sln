@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangover", "Hangover\Hangov
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count on Cantor", "Count on Cantor\Count on Cantor.vcxproj", "{22725C12-FD38-43B4-AB42-F8A7ABCEB585}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anti-Blot System", "Anti-Blot System\Anti-Blot System.vcxproj", "{BD632FA6-7B60-4281-AE74-B231E2A7FC47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -133,6 +135,10 @@ Global
 		{22725C12-FD38-43B4-AB42-F8A7ABCEB585}.Debug|Win32.Build.0 = Debug|Win32
 		{22725C12-FD38-43B4-AB42-F8A7ABCEB585}.Release|Win32.ActiveCfg = Release|Win32
 		{22725C12-FD38-43B4-AB42-F8A7ABCEB585}.Release|Win32.Build.0 = Release|Win32
+		{BD632FA6-7B60-4281-AE74-B231E2A7FC47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD632FA6-7B60-4281-AE74-B231E2A7FC47}.Debug|Win32.Build.0 = Debug|Win32
+		{BD632FA6-7B60-4281-AE74-B231E2A7FC47}.Release|Win32.ActiveCfg = Release|Win32
+		{BD632FA6-7B60-4281-AE74-B231E2A7FC47}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
