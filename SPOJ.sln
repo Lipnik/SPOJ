@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ambiguous Permutations", "A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Alphacode", "Alphacode\Alphacode.vcxproj", "{FE661E09-AA79-4062-A28D-C2195732E957}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Counting Triangles", "Counting Triangles\Counting Triangles.vcxproj", "{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -151,6 +153,10 @@ Global
 		{FE661E09-AA79-4062-A28D-C2195732E957}.Debug|Win32.Build.0 = Debug|Win32
 		{FE661E09-AA79-4062-A28D-C2195732E957}.Release|Win32.ActiveCfg = Release|Win32
 		{FE661E09-AA79-4062-A28D-C2195732E957}.Release|Win32.Build.0 = Release|Win32
+		{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}.Debug|Win32.Build.0 = Debug|Win32
+		{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}.Release|Win32.ActiveCfg = Release|Win32
+		{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
