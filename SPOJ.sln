@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Alphacode", "Alphacode\Alph
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Counting Triangles", "Counting Triangles\Counting Triangles.vcxproj", "{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stamps", "Stamps\Stamps.vcxproj", "{0D61482C-0A7B-4279-B06C-7EA7F92DB6A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -157,6 +159,10 @@ Global
 		{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}.Debug|Win32.Build.0 = Debug|Win32
 		{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}.Release|Win32.ActiveCfg = Release|Win32
 		{9F1C9684-4D0C-4AC6-9E77-D71FC9575600}.Release|Win32.Build.0 = Release|Win32
+		{0D61482C-0A7B-4279-B06C-7EA7F92DB6A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D61482C-0A7B-4279-B06C-7EA7F92DB6A7}.Debug|Win32.Build.0 = Debug|Win32
+		{0D61482C-0A7B-4279-B06C-7EA7F92DB6A7}.Release|Win32.ActiveCfg = Release|Win32
+		{0D61482C-0A7B-4279-B06C-7EA7F92DB6A7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
