@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stamps", "Stamps\Stamps.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Army Strength", "Army Strength\Army Strength.vcxproj", "{7846BB39-1A98-431D-9BF7-8AE239E75E5B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Street Parade", "Street Parade\Street Parade.vcxproj", "{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -169,6 +171,10 @@ Global
 		{7846BB39-1A98-431D-9BF7-8AE239E75E5B}.Debug|Win32.Build.0 = Debug|Win32
 		{7846BB39-1A98-431D-9BF7-8AE239E75E5B}.Release|Win32.ActiveCfg = Release|Win32
 		{7846BB39-1A98-431D-9BF7-8AE239E75E5B}.Release|Win32.Build.0 = Release|Win32
+		{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}.Debug|Win32.Build.0 = Debug|Win32
+		{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}.Release|Win32.ActiveCfg = Release|Win32
+		{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
