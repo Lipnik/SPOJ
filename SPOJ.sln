@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Army Strength", "Army Stren
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Street Parade", "Street Parade\Street Parade.vcxproj", "{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Will it ever stop", "Will it ever stop\Will it ever stop.vcxproj", "{E5939662-280A-4BAE-B698-44D264718E7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -175,6 +177,10 @@ Global
 		{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}.Debug|Win32.Build.0 = Debug|Win32
 		{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}.Release|Win32.ActiveCfg = Release|Win32
 		{A5A693F8-FBB1-42F9-B5BA-CA9938D9A497}.Release|Win32.Build.0 = Release|Win32
+		{E5939662-280A-4BAE-B698-44D264718E7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5939662-280A-4BAE-B698-44D264718E7B}.Debug|Win32.Build.0 = Debug|Win32
+		{E5939662-280A-4BAE-B698-44D264718E7B}.Release|Win32.ActiveCfg = Release|Win32
+		{E5939662-280A-4BAE-B698-44D264718E7B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
