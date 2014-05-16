@@ -9,11 +9,7 @@ int main()
 	scanf("%d",&N);
 	do
 	{
-		int numberOfSquares=0;
-		for (int i = 1; i <= N; i++)
-		{
-			numberOfSquares+=((N-i+1)*(N-i+1));
-		}
+		int numberOfSquares=(2*N*N*N+3*N*N+N)/6;
 		output.push_back(numberOfSquares);
 		scanf("%d",&N);
 	}while(N>0);
