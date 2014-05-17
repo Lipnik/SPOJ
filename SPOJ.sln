@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Will it ever stop", "Will i
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Build a Fence", "Build a Fence\Build a Fence.vcxproj", "{EDCD384D-BA27-4CA0-99D8-0BFA69387B39}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bishops", "Bishops\Bishops.vcxproj", "{414F8C77-6608-4A96-88FA-9803E4C59B04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -187,6 +189,10 @@ Global
 		{EDCD384D-BA27-4CA0-99D8-0BFA69387B39}.Debug|Win32.Build.0 = Debug|Win32
 		{EDCD384D-BA27-4CA0-99D8-0BFA69387B39}.Release|Win32.ActiveCfg = Release|Win32
 		{EDCD384D-BA27-4CA0-99D8-0BFA69387B39}.Release|Win32.Build.0 = Release|Win32
+		{414F8C77-6608-4A96-88FA-9803E4C59B04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{414F8C77-6608-4A96-88FA-9803E4C59B04}.Debug|Win32.Build.0 = Debug|Win32
+		{414F8C77-6608-4A96-88FA-9803E4C59B04}.Release|Win32.ActiveCfg = Release|Win32
+		{414F8C77-6608-4A96-88FA-9803E4C59B04}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

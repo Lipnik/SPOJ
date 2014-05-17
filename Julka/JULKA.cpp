@@ -1,162 +1,101 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<string.h>
 #include<vector>
 using namespace std;
 
-vector<int> ToBigNum(char* strNum,vector<int> out)
+void Take(char* a, char* b, char* out)
 {
-	int strNumSize=strlen(strNum);
-	for (int i = strNumSize-1; i >=0; i-=9)
-	{
-		char* numSegment=new char[9];
-		for (int j = 0; j<9; j++)
-		{
-			numSegment[8-j]=strNum[i-j];
-			if (i-j==0)
-			{
-				out.push_back(atoi(numSegment+8-j));
-				break;
-			}
-			if (j==8)
-			{
-				out.push_back(atoi(numSegment));
-				break;
-			}
-		}
-	}
-	return out;
-}
-
-vector<int> ClearLeadZeros(vector<int> bigNum)
-{
-	int bigNumSize=bigNum.size();
-	for (int i = bigNumSize-1; i >=0; i--)
-	{
-		if (bigNum[i]==0)
-		{
-			if (bigNumSize>1)
-			{
-				bigNum.erase(bigNum.begin()+i);
-				continue;
-			}
-			else
-			{
-				break;
-			}
-		}
-		else
-		{
-			break;
-		}
-	}
-	return bigNum;
-}
-
-vector<int> GetHalf(vector<int> bigNum)
-{
-	bool mod2;
-	int bigNumSize=bigNum.size();
+	int aSize=strlen(a);
+	int bSize=strlen(b);
+	int offset=aSize-bSize;
 	int carry=0;
-	for (int i = bigNumSize-1; i >=0; i--)
+	for (int i =bSize-1 ; i >=0; i--)
 	{
-		mod2=bigNum[i]%2;
-		bigNum[i]=bigNum[i]/2+carry;
-		if (mod2)
+		int digit=a[i+offset]-b[i]+carry;
+		if (digit<0)
 		{
-			carry=500000000;
-		}
-		else
-		{
-			carry=0;
-		}
-	}
-
-	bigNum=ClearLeadZeros(bigNum);
-	return bigNum;
-}
-
-vector<int> Take(vector<int> bigNum,vector<int> take)
-{
-	int i;	
-	int bigNumSize=bigNum.size();
-	int takeSize=take.size();
-	int carry=0;
-	for (i = 0; i < takeSize; i++)
-	{
-		int dif=bigNum[i]-take[i]+carry;
-		if (dif<0)
-		{
-			bigNum[i]=1000000000+dif;
+			digit+=10;
 			carry=-1;
 		}
 		else
 		{
-			bigNum[i]=dif;
 			carry=0;
 		}
+		out[i+offset]=digit+48;
 	}
-	if (carry<0)
+	for (int i = offset-1; i >= 0; i--)
 	{
-		for (i = takeSize; i < bigNumSize; i++)
+		int digit=a[i]+carry-48;
+		if (digit<0)
 		{
-			int dif=bigNum[i]+carry;
-			if (dif<0)
-			{
-				bigNum[i]=1000000000+dif;
-				carry=-1;
-				continue;
-			}
-			else
-			{
-				bigNum[i]=dif;
-				break;
-			}
+			digit+=10;
+			carry=-1;
 		}
+		else
+		{
+			carry=0;
+		}
+		out[i]=digit+48;
+		continue;
 	}
-
-	bigNum=ClearLeadZeros(bigNum);
-	return bigNum;
+	out[aSize]=0;
 }
 
 int main()
 {
+	vector<char*> output;
 	int i,j;
-	vector<vector<int> > output;
 	char apples[102];
 	char difference[102];
 	for (i = 0; i < 10; i++)
 	{
 		scanf("%s",apples);
 		scanf("%s",difference);
-		vector<int> numApples;
-		numApples=ToBigNum(apples,numApples);
-		vector<int> numDifference;
-		numDifference=ToBigNum(difference,numDifference);
-		vector<int> nadia(numApples);
-		nadia=GetHalf(nadia);
-		nadia=Take(nadia,GetHalf(numDifference));
-		vector<int> klaudia(numApples);
-		klaudia=Take(klaudia,nadia);
+		char* nadia=new char[102];
+		Take(apples,difference,nadia);
+		int nadiaSize=strlen(nadia);
+		int carry=0;
+		for (j = 0; j < nadiaSize; j++)
+		{
+			int digit=nadia[j]-48;
+			bool mod2=digit%2;
+			digit=digit/2+carry;
+			if (mod2)
+			{
+				carry=5;
+			}
+			else
+			{
+				carry=0;
+			}
+			nadia[j]=digit+48;
+		}
+		char* klaudia=new char[102];
+		Take(apples,nadia,klaudia);
+		for (j = 0; klaudia[j]==48 ; j++)
+		{
+			if (klaudia[j+1]==0)
+			{
+				break;
+			}
+		}
+		klaudia+=j;
 		output.push_back(klaudia);
+		for (j = 0; nadia[j]==48 ; j++)
+		{
+			if (nadia[j+1]==0)
+			{
+				break;
+			}
+		}
+		nadia+=j;
 		output.push_back(nadia);
 	}
-	
+
 	int outputSize=output.size();
-	for (i = 0; i < outputSize; i++)
+	for (i = 0; i < outputSize; i+=2)
 	{
-		int size=output[i].size();
-		for (j = size-1; j >=0; j--)
-		{
-			int leadZero=100000000;
-			while (leadZero>output[i][j] && leadZero>1 && j!=size-1)
-			{
-				printf("0");
-				leadZero=leadZero/10;
-			}
-			printf("%d",output[i][j]);
-		}
-		printf("\n");
+		printf("%s\n%s\n",output[i],output[i+1]);
 	}
 	return 0;
 }
