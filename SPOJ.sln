@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Build a Fence", "Build a Fe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bishops", "Bishops\Bishops.vcxproj", "{414F8C77-6608-4A96-88FA-9803E4C59B04}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Is it a tree", "Is it a tree\Is it a tree.vcxproj", "{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -193,6 +195,10 @@ Global
 		{414F8C77-6608-4A96-88FA-9803E4C59B04}.Debug|Win32.Build.0 = Debug|Win32
 		{414F8C77-6608-4A96-88FA-9803E4C59B04}.Release|Win32.ActiveCfg = Release|Win32
 		{414F8C77-6608-4A96-88FA-9803E4C59B04}.Release|Win32.Build.0 = Release|Win32
+		{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}.Debug|Win32.Build.0 = Debug|Win32
+		{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}.Release|Win32.ActiveCfg = Release|Win32
+		{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
