@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Life, the Universe, and Everything", "Life, the Universe, and Everything\Life, the Universe, and Everything.vcxproj", "{B75BC345-2B35-4048-84ED-065B424AD46F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adding Reversed Numbers", "Adding Reversed Numbers\Adding Reversed Numbers.vcxproj", "{32CAD2CE-6A1B-469D-A703-CD7808318D61}"
@@ -64,6 +66,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bishops", "Bishops\Bishops.vcxproj", "{414F8C77-6608-4A96-88FA-9803E4C59B04}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Is it a tree", "Is it a tree\Is it a tree.vcxproj", "{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Girls and Boys", "Girls and Boys\Girls and Boys.vcxproj", "{A363CFFE-7EEB-4AC2-9AE9-578D56ED2173}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,6 +203,10 @@ Global
 		{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}.Debug|Win32.Build.0 = Debug|Win32
 		{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}.Release|Win32.ActiveCfg = Release|Win32
 		{527C2666-CF7C-4166-8D3D-F92F99C4A0C2}.Release|Win32.Build.0 = Release|Win32
+		{A363CFFE-7EEB-4AC2-9AE9-578D56ED2173}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A363CFFE-7EEB-4AC2-9AE9-578D56ED2173}.Debug|Win32.Build.0 = Debug|Win32
+		{A363CFFE-7EEB-4AC2-9AE9-578D56ED2173}.Release|Win32.ActiveCfg = Release|Win32
+		{A363CFFE-7EEB-4AC2-9AE9-578D56ED2173}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
